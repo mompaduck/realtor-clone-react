@@ -12,7 +12,7 @@ const firebaseConfig = {
   projectId: "realtor-clone-react-7e606",
   storageBucket: "realtor-clone-react-7e606.appspot.com",
   messagingSenderId: "939578091605",
-  appId: process.env.REACT_APP_APP_ID
+  appId: "1:939578091605:web:9d17eadc56e3d293a44cdc"
 }
 
 // Initialize Firebase
