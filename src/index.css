@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(240, 253, 244);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #a8dadc;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #a8dadc !important;
+}
+
+/* remove scrollbar */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+/* 
+.btn--create-listing {
+  @apply w-full px-4 py-2 text-xl text-gray-700 bg-white border border-gray-300 rounded transition duration-150
+  ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 text-center;
+} */
